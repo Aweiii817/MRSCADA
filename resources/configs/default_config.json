@@ -1,0 +1,49 @@
+{
+  "system": {
+    "language": "zh_CN",
+    "theme": "dark",
+    "data_refresh_interval_ms": 200
+  },
+  "comm": {
+    "modbus_rtu": {
+      "port": "COM1",
+      "baudrate": 19200,
+      "data_bits": 8,
+      "parity": "None",
+      "stop_bits": 1,
+      "response_timeout_ms": 1000,
+      "poll_interval_ms": 500
+    },
+    "modbus_tcp": {
+      "host": "127.0.0.1",
+      "port": 502,
+      "response_timeout_ms": 1000,
+      "poll_interval_ms": 500
+    },
+    "opcua": {
+      "endpoint": "opc.tcp://localhost:4840",
+      "session_timeout_ms": 60000
+    },
+    "mqtt": {
+      "broker": "localhost:1883",
+      "client_id": "ucs_client",
+      "qos": 1,
+      "publish_interval_ms": 5000
+    }
+  },
+  "storage": {
+    "database_path": "data/ucs_history.db",
+    "data_retention_days": 30,
+    "deadband_percent": 0.5
+  },
+  "alarm": {
+    "check_interval_ms": 200,
+    "max_active_alarms": 200,
+    "ack_required": true,
+    "sound_enabled": true
+  },
+  "display": {
+    "decimal_places": 2,
+    "trend_max_points": 600
+  }
+}

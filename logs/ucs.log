@@ -1,0 +1,174 @@
+[2026-07-14 13:39:26.205] [info] ====== UCS Logger initialized ======
+[2026-07-14 13:39:26.206] [info] Log directory: logs
+[2026-07-14 13:39:26.207] [info] Log level: debug
+[2026-07-14 13:39:26.207] [info] ============================
+[2026-07-14 13:39:26.207] [info] UCS Starting... v1.0.0
+[2026-07-14 13:39:26.207] [info] ============================
+[2026-07-14 13:39:26.208] [info] Created config directory: config
+[2026-07-14 13:39:26.208] [warning] Config file 'config/config.json' not found, creating empty defaults
+[2026-07-14 13:39:26.209] [debug] Config saved to config/config.json
+[2026-07-14 13:39:26.210] [info] ConfigManager initialized
+[2026-07-14 13:39:26.210] [info] UserManager initialized with 3 users
+[2026-07-14 13:39:26.211] [info] TagManager: �ɹ����� 4 ����ǩ
+[2026-07-14 13:39:26.212] [info] RealTimeDB initialized
+[2026-07-14 13:39:26.504] [info] MainWindow created
+[2026-07-14 13:39:26.735] [info] MainWindow displayed
+[2026-07-14 13:42:47.128] [info] MainWindow closing
+[2026-07-14 13:46:29.498] [info] ====== UCS Logger initialized ======
+[2026-07-14 13:46:29.498] [info] Log directory: logs
+[2026-07-14 13:46:29.499] [info] Log level: debug
+[2026-07-14 13:46:29.499] [info] ============================
+[2026-07-14 13:46:29.499] [info] UCS Starting... v1.0.0
+[2026-07-14 13:46:29.499] [info] ============================
+[2026-07-14 13:46:29.500] [info] Config loaded: config/config.json (359 bytes)
+[2026-07-14 13:46:29.501] [info] ConfigManager initialized
+[2026-07-14 13:46:29.501] [info] UserManager initialized with 3 users
+[2026-07-14 13:46:29.503] [error] TagManager: JSON 锟斤拷锟斤拷失锟杰★拷锟斤拷[json.exception.parse_error.101] parse error at line 3, column 50: syntax error while parsing value - invalid string: forbidden character after backslash; last read: '"\x'
+[2026-07-14 13:46:29.503] [info] RealTimeDB initialized
+[2026-07-14 13:46:29.584] [info] MainWindow created
+[2026-07-14 13:46:29.772] [info] MainWindow displayed
+[2026-07-14 13:47:02.067] [info] MainWindow closing
+[2026-07-27 15:07:29.251] [info] ====== UCS Logger initialized ======
+[2026-07-27 15:07:29.253] [info] Log directory: logs
+[2026-07-27 15:07:29.253] [info] Log level: debug
+[2026-07-27 15:07:29.253] [info] ============================
+[2026-07-27 15:07:29.253] [info] UCS Starting... v1.0.0
+[2026-07-27 15:07:29.253] [info] ============================
+[2026-07-27 15:07:29.256] [info] Config loaded: config/config.json (359 bytes)
+[2026-07-27 15:07:29.257] [info] ConfigManager initialized
+[2026-07-27 15:07:29.257] [info] UserManager initialized with 3 users
+[2026-07-27 15:07:29.259] [error] TagManager: JSON 锟斤拷锟斤拷失锟杰★拷锟斤拷[json.exception.parse_error.101] parse error at line 3, column 50: syntax error while parsing value - invalid string: forbidden character after backslash; last read: '"\x'
+[2026-07-27 15:07:29.262] [info] RealTimeDB initialized
+[2026-07-27 15:07:29.338] [info] MainWindow created
+[2026-07-27 15:07:29.567] [info] MainWindow displayed
+[2026-07-27 15:08:16.001] [info] MainWindow closing
+[2026-07-27 15:15:05.175] [info] ====== UCS Logger initialized ======
+[2026-07-27 15:15:05.176] [info] Log directory: logs
+[2026-07-27 15:15:05.176] [info] Log level: debug
+[2026-07-27 15:15:05.177] [info] ============================
+[2026-07-27 15:15:05.177] [info] UCS Starting... v1.0.0
+[2026-07-27 15:15:05.177] [info] ============================
+[2026-07-27 15:15:05.179] [info] Config loaded: config/config.json (359 bytes)
+[2026-07-27 15:15:05.179] [info] ConfigManager initialized
+[2026-07-27 15:15:05.180] [info] UserManager initialized with 3 users
+[2026-07-27 15:15:05.180] [error] TagManager: JSON 锟斤拷锟斤拷失锟杰★拷锟斤拷[json.exception.parse_error.101] parse error at line 3, column 50: syntax error while parsing value - invalid string: forbidden character after backslash; last read: '"\x'
+[2026-07-27 15:15:05.181] [info] RealTimeDB initialized
+[2026-07-27 15:15:05.253] [info] DashboardWidget created
+[2026-07-27 15:15:05.319] [info] MainWindow created
+[2026-07-27 15:15:05.470] [info] MainWindow displayed
+[2026-07-27 15:15:05.470] [info] SimReactor: reset to initial state
+[2026-07-27 15:15:05.470] [info] SimReactor: reset to initial state
+[2026-07-27 15:15:05.470] [info] SimReactor: stage transition 0 → 1
+[2026-07-27 15:15:05.470] [info] SimEngine: started (interval=100ms)
+[2026-07-27 15:15:05.471] [info] CommManager: added device 'SimEngine' (simulation)
+[2026-07-27 15:15:05.471] [warning] SimEngine: already running
+[2026-07-27 15:15:05.471] [info] SimPort: started simulation (interval=100ms)
+[2026-07-27 15:15:05.471] [info] CommManager: device 'SimEngine' connected
+[2026-07-27 15:15:05.471] [info] CommManager: started all devices
+[2026-07-27 15:15:05.471] [info] Simulation engine started
+[2026-07-27 15:18:42.782] [info] MainWindow closing
+[2026-08-16 16:37:16.255] [info] ====== UCS Logger initialized ======
+[2026-08-16 16:37:16.255] [info] Log directory: logs
+[2026-08-16 16:37:16.255] [info] Log level: debug
+[2026-08-16 16:37:16.255] [info] ============================
+[2026-08-16 16:37:16.255] [info] UCS Starting... v1.0.0
+[2026-08-16 16:37:16.255] [info] ============================
+[2026-08-16 16:37:16.256] [info] Config loaded: config/config.json (359 bytes)
+[2026-08-16 16:37:16.256] [info] ConfigManager initialized
+[2026-08-16 16:37:16.256] [info] UserManager initialized with 3 users
+[2026-08-16 16:37:16.256] [error] TagManager: JSON 锟斤拷锟斤拷失锟杰★拷锟斤拷[json.exception.parse_error.101] parse error at line 3, column 50: syntax error while parsing value - invalid string: forbidden character after backslash; last read: '"\x'
+[2026-08-16 16:37:16.257] [info] RealTimeDB initialized
+[2026-08-16 16:37:16.266] [info] DashboardWidget created
+[2026-08-16 16:37:16.292] [info] ProcessView created
+[2026-08-16 16:37:16.382] [info] MainWindow created
+[2026-08-16 16:37:16.535] [info] MainWindow displayed
+[2026-08-16 16:37:16.535] [info] SimReactor: reset to initial state
+[2026-08-16 16:37:16.535] [info] SimReactor: reset to initial state
+[2026-08-16 16:37:16.535] [info] SimReactor: stage transition 0 → 1
+[2026-08-16 16:37:16.535] [info] SimEngine: started (interval=100ms)
+[2026-08-16 16:37:16.535] [info] CommManager: added device 'SimEngine' (simulation)
+[2026-08-16 16:37:16.535] [warning] SimEngine: already running
+[2026-08-16 16:37:16.535] [info] SimPort: started simulation (interval=100ms)
+[2026-08-16 16:37:16.535] [info] CommManager: device 'SimEngine' connected
+[2026-08-16 16:37:16.535] [info] CommManager: started all devices
+[2026-08-16 16:37:16.535] [info] Simulation engine started
+[2026-08-16 16:49:20.076] [info] MainWindow closing
+[2026-08-16 17:22:27.646] [info] ====== UCS Logger initialized ======
+[2026-08-16 17:22:27.647] [info] Log directory: logs
+[2026-08-16 17:22:27.647] [info] Log level: debug
+[2026-08-16 17:22:27.647] [info] ============================
+[2026-08-16 17:22:27.647] [info] UCS Starting... v1.0.0
+[2026-08-16 17:22:27.647] [info] ============================
+[2026-08-16 17:22:27.647] [info] Config loaded: config/config.json (359 bytes)
+[2026-08-16 17:22:27.647] [info] ConfigManager initialized
+[2026-08-16 17:22:27.648] [info] UserManager initialized with 3 users
+[2026-08-16 17:22:27.648] [info] TagManager: 成功加载 4 个标签
+[2026-08-16 17:22:27.648] [info] RealTimeDB initialized
+[2026-08-16 17:22:27.704] [info] DashboardWidget created
+[2026-08-16 17:22:27.707] [info] ProcessView created
+[2026-08-16 17:22:27.801] [info] MainWindow created
+[2026-08-16 17:22:27.954] [info] MainWindow displayed
+[2026-08-16 17:22:27.954] [info] SimReactor: reset to initial state
+[2026-08-16 17:22:27.954] [info] SimReactor: reset to initial state
+[2026-08-16 17:22:27.954] [info] SimReactor: stage transition 0 → 1
+[2026-08-16 17:22:27.955] [info] SimEngine: started (interval=100ms)
+[2026-08-16 17:22:27.955] [info] CommManager: added device 'SimEngine' (simulation)
+[2026-08-16 17:22:27.955] [warning] SimEngine: already running
+[2026-08-16 17:22:27.955] [info] SimPort: started simulation (interval=100ms)
+[2026-08-16 17:22:27.955] [info] CommManager: device 'SimEngine' connected
+[2026-08-16 17:22:27.955] [info] CommManager: started all devices
+[2026-08-16 17:22:27.955] [info] Simulation engine started
+[2026-08-16 17:41:36.972] [info] MainWindow closing
+[2026-08-16 17:48:20.942] [info] ====== UCS Logger initialized ======
+[2026-08-16 17:48:20.942] [info] Log directory: logs
+[2026-08-16 17:48:20.942] [info] Log level: debug
+[2026-08-16 17:48:20.942] [info] ============================
+[2026-08-16 17:48:20.942] [info] UCS Starting... v1.0.0
+[2026-08-16 17:48:20.942] [info] ============================
+[2026-08-16 17:48:20.943] [info] Config loaded: config/config.json (359 bytes)
+[2026-08-16 17:48:20.943] [info] ConfigManager initialized
+[2026-08-16 17:48:20.943] [info] UserManager initialized with 3 users
+[2026-08-16 17:48:20.944] [info] TagManager: 成功加载 4 个标签
+[2026-08-16 17:48:20.944] [info] RealTimeDB initialized
+[2026-08-16 17:48:20.952] [info] DashboardWidget created
+[2026-08-16 17:48:20.975] [info] ProcessView created
+[2026-08-16 17:48:21.034] [info] MainWindow created
+[2026-08-16 17:48:21.189] [info] MainWindow displayed
+[2026-08-16 17:48:21.189] [info] SimReactor: reset to initial state
+[2026-08-16 17:48:21.189] [info] SimReactor: reset to initial state
+[2026-08-16 17:48:21.189] [info] SimReactor: stage transition 0 → 1
+[2026-08-16 17:48:21.189] [info] SimEngine: started (interval=100ms)
+[2026-08-16 17:48:21.189] [info] CommManager: added device 'SimEngine' (simulation)
+[2026-08-16 17:48:21.189] [warning] SimEngine: already running
+[2026-08-16 17:48:21.189] [info] SimPort: started simulation (interval=100ms)
+[2026-08-16 17:48:21.189] [info] CommManager: device 'SimEngine' connected
+[2026-08-16 17:48:21.189] [info] CommManager: started all devices
+[2026-08-16 17:48:21.189] [info] Simulation engine started
+[2026-08-16 17:51:54.671] [info] MainWindow closing
+[2026-08-16 17:51:59.406] [info] ====== UCS Logger initialized ======
+[2026-08-16 17:51:59.406] [info] Log directory: logs
+[2026-08-16 17:51:59.406] [info] Log level: debug
+[2026-08-16 17:51:59.406] [info] ============================
+[2026-08-16 17:51:59.406] [info] UCS Starting... v1.0.0
+[2026-08-16 17:51:59.406] [info] ============================
+[2026-08-16 17:51:59.407] [info] Config loaded: config/config.json (359 bytes)
+[2026-08-16 17:51:59.407] [info] ConfigManager initialized
+[2026-08-16 17:51:59.407] [info] UserManager initialized with 3 users
+[2026-08-16 17:51:59.407] [info] TagManager: 成功加载 4 个标签
+[2026-08-16 17:51:59.407] [info] RealTimeDB initialized
+[2026-08-16 17:51:59.416] [info] DashboardWidget created
+[2026-08-16 17:51:59.439] [info] ProcessView created
+[2026-08-16 17:51:59.497] [info] MainWindow created
+[2026-08-16 17:51:59.651] [info] MainWindow displayed
+[2026-08-16 17:51:59.651] [info] SimReactor: reset to initial state
+[2026-08-16 17:51:59.651] [info] SimReactor: reset to initial state
+[2026-08-16 17:51:59.651] [info] SimReactor: stage transition 0 → 1
+[2026-08-16 17:51:59.651] [info] SimEngine: started (interval=100ms)
+[2026-08-16 17:51:59.651] [info] CommManager: added device 'SimEngine' (simulation)
+[2026-08-16 17:51:59.651] [warning] SimEngine: already running
+[2026-08-16 17:51:59.651] [info] SimPort: started simulation (interval=100ms)
+[2026-08-16 17:51:59.651] [info] CommManager: device 'SimEngine' connected
+[2026-08-16 17:51:59.651] [info] CommManager: started all devices
+[2026-08-16 17:51:59.652] [info] Simulation engine started
+[2026-08-16 17:56:57.039] [info] RealTimeTrend: added series for TE-101
+[2026-08-16 18:58:41.132] [info] MainWindow closing

@@ -1,0 +1,49 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "Debug (MSVC 2022)",
+            "description": "Debug 构建 — 带调试符号，优化关闭",
+            "generator": "Visual Studio 17 2022",
+            "architecture": {
+                "value": "x64",
+                "strategy": "set"
+            },
+            "binaryDir": "${sourceDir}/build/debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "BUILD_TESTING": "ON",
+                "CMAKE_PREFIX_PATH": "D:\\Qt\\6.5.3\\msvc2019_64",
+                "CMAKE_TOOLCHAIN_FILE": "D:\\Others\\Vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+            }
+        },
+        {
+            "name": "release",
+            "displayName": "Release (MSVC 2022)",
+            "description": "Release 构建 — 全优化",
+            "generator": "Visual Studio 17 2022",
+            "architecture": {
+                "value": "x64",
+                "strategy": "set"
+            },
+            "binaryDir": "${sourceDir}/build/release",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "BUILD_TESTING": "OFF",
+                "CMAKE_PREFIX_PATH": "D:\\Qt\\6.5.3\\msvc2019_64",
+                "CMAKE_TOOLCHAIN_FILE": "D:\\Others\\Vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug",
+            "configurePreset": "debug"
+        },
+        {
+            "name": "release",
+            "configurePreset": "release"
+        }
+    ]
+}

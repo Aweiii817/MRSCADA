@@ -1,0 +1,23 @@
+# 编译产物目录（完全不要提交）
+build/
+cmake-build-*/
+
+# Visual Studio 中间文件（每台电脑生成的都不一样）
+.vs/
+*.user
+*.suo
+*.sdf
+
+# 编译过程中产生的文件（.exe 已经要了，这些不需要）
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+
+.qtcreator
+
+vcpkg_installed

@@ -1,0 +1,14 @@
+{
+    "name": "ucs",
+    "version": "1.0.0",
+    "description": "UCS Industrial Upper Computer System",
+  "dependencies": [
+    "spdlog",
+    "nlohmann-json",
+    "gtest",
+    "qtbase",
+    "qtserialbus",
+    "qtserialport",
+    "qtcharts"
+  ]
+}

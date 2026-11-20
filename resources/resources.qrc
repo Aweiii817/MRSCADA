@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC>
+    <qresource prefix="/">
+        <file>styles/dark_theme.qss</file>
+        <file>configs/default_config.json</file>
+    </qresource>
+</RCC>

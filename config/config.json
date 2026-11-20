@@ -1,0 +1,19 @@
+{
+    "comm": {
+        "modbus_rtu": {
+            "baudrate": 19200,
+            "port": "COM1"
+        },
+        "modbus_tcp": {
+            "host": "127.0.0.1",
+            "port": 502
+        }
+    },
+    "storage": {
+        "data_retention_days": 30
+    },
+    "system": {
+        "language": "zh_CN",
+        "theme": "dark"
+    }
+}

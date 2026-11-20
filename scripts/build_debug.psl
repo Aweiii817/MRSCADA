@@ -1,0 +1,36 @@
+# ============================================================
+# Debug 构建脚本
+#
+# 用法：在 PowerShell 中执行
+#   .\scripts\build_debug.ps1
+#
+# 它做两件事：
+#   1. cmake --preset=debug — 配置阶段（生成 Visual Studio 工程）
+#   2. cmake --build --preset=debug — 编译阶段（真正的编译）
+# ============================================================
+
+# $PSScriptRoot 是当前脚本所在的目录（scripts/）
+# Split-Path -Parent 取它的父目录，就是项目根目录 D:\QtProject\UCS\
+$ProjectRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
+Set-Location $ProjectRoot
+
+Write-Host "[1/2] 配置 CMake (Debug)..." -ForegroundColor Cyan
+# cmake --preset=debug 读取 CMakePresets.json 中的 debug 预设
+# 它会生成 build/debug/UCS.sln（Visual Studio 解决方案文件）
+cmake --preset=debug
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "CMake 配置失败！" -ForegroundColor Red
+    exit 1
+}
+
+Write-Host "[2/2] 编译..." -ForegroundColor Cyan
+# cmake --build --preset=debug 读取 buildPresets 中的 debug 预设
+# 它会调用 MSBuild 编译解决方案中的全部项目
+cmake --build --preset=debug
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "编译失败！" -ForegroundColor Red
+    exit 1
+}
+
+Write-Host "编译成功！可执行文件位于：" -ForegroundColor Green
+Write-Host "  build/debug/src/app/Debug/UCS.exe" -ForegroundColor Green

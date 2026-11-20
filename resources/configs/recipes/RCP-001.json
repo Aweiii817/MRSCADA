@@ -1,0 +1,42 @@
+{
+  "recipe_id": "RCP-001",
+  "product_name": "�۱�ϩ���� A��",
+  "version": "v1.0",
+  "author": "admin",
+  "create_time": 1781074200000,
+  "modify_time": 1781074200000,
+  "description": "��׼�����䷽",
+  "stages": [
+    {
+      "stage_name": "����",
+      "level_target": 80.0,
+      "valve_open": 1.0,
+      "duration_sec": 0
+    },
+    {
+      "stage_name": "����",
+      "temp_target": 150.0,
+      "temp_rate": 5.0,
+      "valve_open": 0.8,
+      "duration_sec": 0
+    },
+    {
+      "stage_name": "���·�Ӧ",
+      "temp_target": 150.0,
+      "agitator_speed": 300.0,
+      "duration_sec": 3600
+    },
+    {
+      "stage_name": "��ȴ",
+      "temp_target": 50.0,
+      "valve_open": 0.7,
+      "duration_sec": 0
+    },
+    {
+      "stage_name": "����",
+      "level_target": 5.0,
+      "valve_open": 1.0,
+      "duration_sec": 0
+    }
+  ]
+}
